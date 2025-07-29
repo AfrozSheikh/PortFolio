@@ -39,27 +39,27 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'afroz@example.com',
-      href: 'mailto:afroz@example.com',
+      value: 'afrozsheikh1112@gmail.com',
+      href: 'mailto:afrozsheikh1112@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+919766432374',
+      href: 'tel:+919766432374',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Chh.Sambhajinagar, MH',
       href: '#',
     },
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/AfrozSheikh', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/afroz-sheikh-404268262/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/Afroz8329', label: 'Twitter' },
   ];
 
   return (

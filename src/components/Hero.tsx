@@ -58,10 +58,10 @@ const Hero: React.FC = () => {
         {/* Social Icons */}
         <div className="flex justify-center space-x-6 mb-12">
           {[
-            { icon: Github, href: '#', label: 'GitHub' },
-            { icon: Linkedin, href: '#', label: 'LinkedIn' },
-            { icon: Twitter, href: '#', label: 'Twitter' },
-            { icon: Mail, href: '#', label: 'Email' },
+            { icon: Github, href: 'https://github.com/AfrozSheikh', label: 'GitHub' },
+            { icon: Linkedin, href: 'https://www.linkedin.com/in/afroz-sheikh-404268262/', label: 'LinkedIn' },
+            // { icon: Twitter, href: '#', label: 'Twitter' },
+            // { icon: Mail, href: '#', label: 'Email' },
           ].map((social, index) => (
             <a
               key={social.label}

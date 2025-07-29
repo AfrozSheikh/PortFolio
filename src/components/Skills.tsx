@@ -13,10 +13,10 @@ const Skills: React.FC = () => {
       color: 'from-cyan-400 to-blue-500',
       skills: [
         { name: 'React', level: 95 },
-        { name: 'TypeScript', level: 90 },
+        // { name: 'Node.js', level: 90 },
         { name: 'Next.js', level: 88 },
         { name: 'Tailwind CSS', level: 92 },
-        { name: 'Framer Motion', level: 85 },
+        // { name: 'Framer Motion', level: 85 },
       ],
     },
     {
@@ -24,21 +24,20 @@ const Skills: React.FC = () => {
       color: 'from-purple-400 to-pink-500',
       skills: [
         { name: 'Node.js', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'PostgreSQL', level: 88 },
+        { name: 'Python', level: 70 },
+        // { name: 'PostgreSQL', level: 88 },
         { name: 'MongoDB', level: 82 },
-        { name: 'GraphQL', level: 80 },
+        // { name: 'GraphQL', level: 80 },
       ],
     },
     {
-      title: 'Cloud & DevOps',
+      title: 'Cloud & AI',
       color: 'from-green-400 to-emerald-500',
       skills: [
         { name: 'AWS', level: 85 },
-        { name: 'Docker', level: 88 },
-        { name: 'Kubernetes', level: 75 },
-        { name: 'CI/CD', level: 82 },
-        { name: 'Terraform', level: 78 },
+        { name: 'Git-Github', level: 88 },
+        { name: 'ChatGPT', level: 100 },
+       
       ],
     },
   ];

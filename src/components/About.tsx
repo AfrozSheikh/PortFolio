@@ -9,33 +9,33 @@ const About: React.FC = () => {
   });
 
   const skills = [
-    { name: 'Frontend Development', level: 95, color: 'from-cyan-400 to-blue-500' },
-    { name: 'Backend Development', level: 90, color: 'from-purple-400 to-pink-500' },
-    { name: 'Cloud Architecture', level: 85, color: 'from-green-400 to-emerald-500' },
-    { name: 'DevOps & CI/CD', level: 80, color: 'from-orange-400 to-red-500' },
+    { name: 'Frontend Development', level: 90, color: 'from-cyan-400 to-blue-500' },
+    { name: 'Backend Development', level: 85, color: 'from-purple-400 to-pink-500' },
+    // { name: 'Machine Learning', level: 80, color: 'from-green-400 to-emerald-500' },
+    { name: 'Cloud', level: 75, color: 'from-orange-400 to-red-500' },
   ];
 
   const timeline = [
     {
-      year: '2024',
-      title: 'Senior Full-Stack Developer',
-      company: 'Tech Innovators Inc.',
-      description: 'Leading development of cutting-edge web applications',
+      year: '2026',
+      title: 'B.Tech in Computer Science',
+      company: 'CSMSS Chh. Shahu College of Engineering',
+      description: 'Graduating with strong foundations in full-stack development and machine learning.',
+      icon: Award,
+    },
+    {
+      year: '2025',
+      title: 'Built SignVerse (Sign Language Detection)',
+      company: 'College Project',
+      description: 'Developed a real-time ASL to speech web app using Flask, MediaPipe, and ML.',
       icon: Code,
     },
     {
-      year: '2022',
-      title: 'Full-Stack Developer',
-      company: 'Digital Solutions Co.',
-      description: 'Built scalable applications serving 100k+ users',
+      year: '2025',
+      title: 'GSSoC Contributor',
+      company: 'GirlScript Summer of Code',
+      description: 'Contributed to open-source web projects using React and Node.js.',
       icon: Zap,
-    },
-    {
-      year: '2020',
-      title: 'Computer Science Graduate',
-      company: 'University of Technology',
-      description: 'Graduated with honors, specializing in software engineering',
-      icon: Award,
     },
   ];
 
@@ -47,7 +47,7 @@ const About: React.FC = () => {
             About<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">.</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-            Passionate about creating digital experiences that blend creativity with functionality
+            Passionate full-stack developer and AI enthusiast, building inclusive tech solutions.
           </p>
         </div>
 
@@ -59,12 +59,10 @@ const About: React.FC = () => {
               <div className="relative bg-black/50 backdrop-blur-sm p-8 rounded-lg border border-gray-800">
                 <h3 className="text-2xl font-bold text-white mb-4">My Journey</h3>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  With over 4 years of experience in full-stack development, I specialize in creating 
-                  immersive digital experiences that push the boundaries of what's possible on the web.
+                  I'm Afroz Sheikh, a Computer Science undergrad with a passion for real-time web applications and AI-driven solutions.
                 </p>
                 <p className="text-gray-300 leading-relaxed">
-                  I believe in the power of clean code, beautiful design, and seamless user experiences. 
-                  When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects.
+                  I've worked on impactful projects like SignVerse, KrushiMitra, and StudyNotion, combining frontend finesse with backend logic and ML models.
                 </p>
               </div>
             </div>

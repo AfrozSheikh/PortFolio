@@ -11,12 +11,10 @@ const Footer: React.FC = () => {
             <Heart className="text-red-500" size={16} />
             <span>and</span>
             <Code className="text-cyan-400" size={16} />
-            <span>by Afroz Sheikh</span>
+            <span className='text-blue-600'>by Afroz Sheikh</span>
           </div>
           
-          <div className="text-gray-400 text-sm">
-            © 2024 All rights reserved.
-          </div>
+         
         </div>
         
         <div className="mt-6 pt-6 border-t border-gray-800 text-center">
