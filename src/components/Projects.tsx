@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, X } from 'lucide-react';
+import study from "../images/studynotion.png"
+import krushi from "../images/krushimitra.png"
+import port from "../images/portfolio.png"
+import sign from "../images/sign.png"
 
 const Projects: React.FC = () => {
   const { ref, inView } = useInView({
@@ -15,7 +19,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: 'StudyNotion',
       description: 'An ed-tech platform with secure authentication and course purchase system built using the MERN stack.',
-      image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: study , 
       tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
       github: 'https://github.com/AfrozSheikh/studynotion',
       live: 'https://studynotion-jade.vercel.app/',
@@ -25,7 +29,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'KrushiMitra',
       description: 'AI-based crop recommendation system using soil data, geolocation, and weather forecasting.',
-      image: 'https://images.pexels.com/photos/6231641/pexels-photo-6231641.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: krushi,
       tech: ['React.js', 'Node.js', 'Gemini AI', 'MongoDB', 'OpenWeatherMap API'],
       github: 'https://github.com/AfrozSheikh/krushimitra',
       live: '#',
@@ -35,7 +39,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'SignVerse',
       description: 'Real-time ASL recognition web app that converts hand gestures into text and speech.',
-      image: 'https://images.pexels.com/photos/4144095/pexels-photo-4144095.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: sign,
       tech: ['Flask', 'MediaPipe', 'Random Forest', 'OpenCV', 'Tailwind CSS'],
       github: 'https://github.com/AfrozSheikh/signverse',
       live: '#',
@@ -45,7 +49,7 @@ const Projects: React.FC = () => {
       id: 4,
       title: 'Portfolio Website',
       description: 'Personal portfolio to showcase projects, resume, and contact information using modern animations.',
-      image: 'https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image:port,
       tech: ['React.js', 'Framer Motion', 'Tailwind CSS'],
       github: 'https://github.com/AfrozSheikh/portfolio',
       live: 'https://afroz-portfolio.vercel.app/',
