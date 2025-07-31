@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update document title
-    document.title = 'Afroz Sheikh - Full-Stack Developer';
+    document.title = 'Afroz Sheikh';
     
     // Add smooth scrolling behavior
     document.documentElement.style.scrollBehavior = 'smooth';
